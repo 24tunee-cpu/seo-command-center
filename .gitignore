@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+*/node_modules/
+venv/
+*/venv/
+
+# Build outputs
+frontend/.next/
+frontend/out/
+backend/dist/
+backend/build/
+release/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Database
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Electron
+release/
+release-builds/
+
+# PyInstaller
+*.spec.bak
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
